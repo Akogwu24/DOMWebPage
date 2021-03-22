@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  color: white;
+}
+
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font: bold 2.5rem 'Ubuntu', serif;
+  font-family: 'Ubuntu';
+}
+h1 {
+  font-weight: bolder;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+[alt='iphone-mockup'] {
+  /* transform: rotate(25deg); */
+  width: 20rem;
+  border-radius: 10%;
+  margin-left: 100px;
+  box-shadow: 20px 20px 20px rgba(66, 99, 128, 0.7);
+}
+.nav-item {
+  padding: 0 20px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* download button */
+.download-btn {
+  margin: 5% 3% 0 0;
+}
+
+#features i {
+  color: #ef8172;
+}
+#features i:hover {
+  color: #ff4c68;
+}
+
+#features p {
+  color: #8f8f8f; /*color same as giving a class of muted to elements */
+}
+
+#testimonials h2 {
+  font-size: 2.5rem;
+}
+#testimonials img {
+  width: 15%;
+  border-radius: 100%;
+  padding: 2%;
+}
+
+/* Press */
+#press {
+  text-align: center;
+}
+#press img {
+  width: 10%;
+  margin: 4% 20px 5%;
+}
+.carousel-item {
+  padding: 1% 12% 0;
+}
+
+.form-section {
+  background: #1f4244;
+  padding: 50px 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 50%;
+}
+.input-field input {
+  margin: 10px 0;
+}
+.form-section button {
+  margin: 20px auto;
+  width: 50%;
+}
